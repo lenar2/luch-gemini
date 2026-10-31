@@ -1,0 +1,10 @@
+{
+  "name": "luch-gemini",
+  "version": "0.1.6",
+  "description": "LUCH: OAuth-scoped remote MCP for authorized browsers, files, and devices. Requires an enabled LUCH account.",
+  "mcpServers": {
+    "luch": {
+      "httpUrl": "https://api.lenarsalimov.ru/luch/core/mcp"
+    }
+  }
+}
