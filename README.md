@@ -1,5 +1,7 @@
 # LUCH for Gemini CLI (v0.1.6)
 
+**LUCH is an independent platform, not a Gemini-only product.** Explore all LUCH capabilities and supported AI clients at the [global GitHub hub](https://github.com/lenar2/luch) or [website](https://luch.lenarsalimov.ru/). This repository contains the Gemini CLI adapter.
+
 Connect [Gemini CLI](https://geminicli.com/) to LUCH through a public,
 OAuth-protected, permission-scoped remote MCP and 12 agent skills.
 
