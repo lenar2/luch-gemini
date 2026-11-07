@@ -61,13 +61,13 @@ Start with an inspect-only task:
 
 The server target is explicit. Diagnostics are bounded. A restart, deployment, firewall change or other consequential operation is a separate decision, not an automatic next step.
 
-LUCH is used for real work in the founder's connected environment. Public extension source is available to inspect; service access and account authorization are separate from installation. See [service status](https://luch.lenarsalimov.ru/en/status/) or [support](https://luch.lenarsalimov.ru/support/).
+I already use LUCH for real work in my connected environment. Public extension source is available to inspect; service access and account authorization are separate from installation. See [service status](https://luch.lenarsalimov.ru/en/status/) or [support](https://luch.lenarsalimov.ru/support/).
 
 <details><summary>For developers and reviewers</summary>
 
 - Gemini CLI extension version: v0.1.6; 12 skills.
 - [`gemini-extension.json`](gemini-extension.json) declares the remote MCP endpoint.
-- The [founder-environment case](https://github.com/lenar2/luch/blob/main/docs/REAL_WORK.md) demonstrates LUCH work, not a claim that Gemini CLI executed that particular case.
+- [My documented LUCH case](https://github.com/lenar2/luch/blob/main/docs/REAL_WORK.md) demonstrates real work with connected tools, not a claim that Gemini CLI executed that particular case.
 - Manifest parsing or package installation alone does not prove OAuth, pairing, tenant isolation or revocation. Those require separate tests.
 - [Security](SECURITY.md) · [Apache-2.0](LICENSE).
 
