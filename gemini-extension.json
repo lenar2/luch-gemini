@@ -1,7 +1,7 @@
 {
   "name": "luch-gemini",
   "version": "0.1.6",
-  "description": "LUCH: OAuth-scoped remote MCP for authorized browsers, files, and devices. Requires an enabled LUCH account.",
+  "description": "Bring Gemini CLI into operational work across a selected server, authorized files and a browser session, with bounded checks and results you can inspect.",
   "mcpServers": {
     "luch": {
       "httpUrl": "https://api.lenarsalimov.ru/luch/core/mcp"

@@ -1,10 +1,19 @@
 # LUCH for Gemini CLI
-LUCH is an authorization-scoped remote MCP client, not a license to access devices.
-Only use tools actually exposed to this authenticated Gemini CLI session. Confirm the user
-owns/controls target resources and has approved the specific action. Pairing and per-device
-grants must be verified before device operations.
-Never infer authorization from skill descriptions, host installation or historical tool lists.
-Public MCP: https://api.lenarsalimov.ru/luch/core/mcp. The legacy owner-only bridge is NOT
-part of this extension and must never be used for public users.
-Begin with bounded read-only work. Never expose secrets, OAuth tokens or private files.
-If tools are absent or onboarding fails, report the verified limitation rather than claiming success.
+
+Use LUCH to connect a terminal task to the resources selected by the user: an authorized server, permitted files or a browser session.
+
+## Working style
+
+- Confirm the exact target before acting.
+- Begin with current status and read-only observation.
+- Use bounded commands with a fixed target and timeout.
+- Distinguish observed output from assumptions.
+- Return the result and the next useful check in plain language.
+
+## Safety
+
+Only use tools actually exposed to this authenticated Gemini CLI session. Confirm that the user owns or controls the target and has approved the specific action. Pairing and per-resource grants must be verified before acting. Never infer access from this file or the extension installation.
+
+Do not use owner-only bridges or credentials. Do not expose secrets, OAuth tokens or private files. Do not restart production, alter firewall/DNS, install services or deploy changes without explicit scope and approval.
+
+If a tool or resource is not available, report that accurately. A successful command submission is not proof that an external side effect completed.
