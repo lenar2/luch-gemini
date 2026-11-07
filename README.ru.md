@@ -5,7 +5,7 @@
 
 Gemini CLI — привычная командная строка для технических задач. **LUCH может соединить эту работу с выбранным сервером, разрешёнными файлами и браузером** — а затем помочь превратить фактический вывод в отчёт о состоянии и понятный следующий шаг.
 
-[**Сценарий Gemini CLI**](docs/GEMINI_WORKFLOW.ru.md) · [**Установить расширение**](#подключение-в-gemini-cli) · [English](README.md) · [Платформа LUCH](https://github.com/lenar2/luch)
+[**Сценарий Gemini CLI**](docs/GEMINI_WORKFLOW.ru.md) · [**Установить расширение**](#подключение-к-gemini-cli) · [English](README.md) · [Платформа LUCH](https://github.com/lenar2/luch)
 
 ![Сценарий Gemini CLI: задача в терминале, выбранный сервер, ограниченная проверка и отчёт](assets/gemini-workflow.svg)
 
