@@ -5,7 +5,7 @@
 
 В Gemini CLI вы формулируете задачу. **LUCH при разрешённом аккаунте может дать ограниченный доступ к браузеру, файлам, устройствам и выбранным серверам** — без безусловного права выполнять любые действия.
 
-[**Настоящий случай LUCH**](https://github.com/lenar2/luch/blob/design/hea-evidence-first-20261107/docs/REAL_WORK.ru.md) · [**Начать подключение**](#подключение-в-gemini-cli) · [English](README.md) · [Главный LUCH](https://github.com/lenar2/luch)
+[**Настоящий случай LUCH**](https://github.com/lenar2/luch/blob/main/docs/REAL_WORK.ru.md) · [**Начать подключение**](#подключение-в-gemini-cli) · [English](README.md) · [Главный LUCH](https://github.com/lenar2/luch)
 
 > **Ранний доступ:** исходники расширения доступны, но самостоятельная регистрация нового пользователя, полный путь OAuth в Gemini CLI и работа со всеми устройствами **не подтверждены**. Установка не открывает аккаунт.
 
@@ -13,7 +13,7 @@
 
 Основатель попросил переделать слишком технический сайт LUCH, не затрагивая Mac. ИИ через разрешённые инструменты исследовал живой сайт и GitHub, подготовил редакцию, исправил мобильный дефект и с разрешения выпустил новую версию. [Точный коммит](https://github.com/lenar2/luch/commit/06daa8d6b89a3dfd65e74628b895879e79a0c931) · [запись выпуска](https://github.com/lenar2/ai-factory-evidence/issues/4009#issuecomment-6692683064).
 
-**Этот случай не является проверкой выполнения именно в Gemini CLI.** [Полные факты и ограничения](https://github.com/lenar2/luch/blob/design/hea-evidence-first-20261107/docs/REAL_WORK.ru.md).
+**Этот случай не является проверкой выполнения именно в Gemini CLI.** [Полные факты и ограничения](https://github.com/lenar2/luch/blob/main/docs/REAL_WORK.ru.md).
 
 ## Подключение в Gemini CLI
 

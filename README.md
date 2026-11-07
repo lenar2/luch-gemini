@@ -5,7 +5,7 @@
 
 Gemini CLI is the place you describe the work. With an enabled account, **LUCH can provide permission-scoped access to the browser, files, devices or approved servers** needed to make progress — without treating a prompt as unlimited authority.
 
-[**See one real LUCH workflow**](https://github.com/lenar2/luch/blob/design/hea-evidence-first-20261107/docs/REAL_WORK.md) · [**Get started**](#connect-with-gemini-cli) · [Русский](README.ru.md) · [LUCH home](https://github.com/lenar2/luch)
+[**See one real LUCH workflow**](https://github.com/lenar2/luch/blob/main/docs/REAL_WORK.md) · [**Get started**](#connect-with-gemini-cli) · [Русский](README.ru.md) · [LUCH home](https://github.com/lenar2/luch)
 
 > **Early access:** the extension source is public. An arbitrary new user's self-service enrollment, complete Gemini OAuth E2E and broad device access are **not verified**. Installation is not an account grant.
 
@@ -13,7 +13,7 @@ Gemini CLI is the place you describe the work. With an enabled account, **LUCH c
 
 The founder asked to change LUCH's over-technical website while leaving the Mac alone. The assistant inspected the website and GitHub source through authorized tools, prepared a redesign, fixed a mobile issue and released the change with permission. The [public commit](https://github.com/lenar2/luch/commit/06daa8d6b89a3dfd65e74628b895879e79a0c931) and [release evidence](https://github.com/lenar2/ai-factory-evidence/issues/4009#issuecomment-6692683064) are real.
 
-**This was a founder-environment LUCH task, not a verified Gemini CLI execution.** [Full case and caveats](https://github.com/lenar2/luch/blob/design/hea-evidence-first-20261107/docs/REAL_WORK.md).
+**This was a founder-environment LUCH task, not a verified Gemini CLI execution.** [Full case and caveats](https://github.com/lenar2/luch/blob/main/docs/REAL_WORK.md).
 
 ## Connect with Gemini CLI
 
