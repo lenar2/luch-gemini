@@ -1,55 +1,56 @@
-# LUCH for Gemini CLI (v0.1.6)
+<p><img src="https://raw.githubusercontent.com/lenar2/luch/main/website/assets/luch-ray.svg" width="36"></p>
 
-**LUCH is an independent platform, not a Gemini-only product.** Explore all LUCH capabilities and supported AI clients at the [global GitHub hub](https://github.com/lenar2/luch) or [website](https://luch.lenarsalimov.ru/). This repository contains the Gemini CLI adapter.
+# LUCH for Gemini CLI
+### Keep the terminal. Reach the right tool.
 
-Connect [Gemini CLI](https://geminicli.com/) to LUCH through a public,
-OAuth-protected, permission-scoped remote MCP and 12 agent skills.
+Gemini CLI is the place you describe the work. With an enabled account, **LUCH can provide permission-scoped access to the browser, files, devices or approved servers** needed to make progress — without treating a prompt as unlimited authority.
 
-**Availability:** This is a real client package for an operating service currently
-restricted to enabled test/reviewer accounts. Independent new-user self-service
-onboarding, full three-scenario Gemini CLI OAuth E2E, and broad device support are **not yet verified**.
-Installing does not grant access to the publisher's machines, accounts, or browser.
-Capabilities depend on active account, device pairing, host tool surface and grants.
+[**See one real LUCH workflow**](https://github.com/lenar2/luch/blob/design/hea-evidence-first-20261107/docs/REAL_WORK.md) · [**Get started**](#connect-with-gemini-cli) · [Русский](README.ru.md) · [LUCH home](https://github.com/lenar2/luch)
 
-## Install
+> **Early access:** the extension source is public. An arbitrary new user's self-service enrollment, complete Gemini OAuth E2E and broad device access are **not verified**. Installation is not an account grant.
+
+## What actual work can look like
+
+The founder asked to change LUCH's over-technical website while leaving the Mac alone. The assistant inspected the website and GitHub source through authorized tools, prepared a redesign, fixed a mobile issue and released the change with permission. The [public commit](https://github.com/lenar2/luch/commit/06daa8d6b89a3dfd65e74628b895879e79a0c931) and [release evidence](https://github.com/lenar2/ai-factory-evidence/issues/4009#issuecomment-6692683064) are real.
+
+**This was a founder-environment LUCH task, not a verified Gemini CLI execution.** [Full case and caveats](https://github.com/lenar2/luch/blob/design/hea-evidence-first-20261107/docs/REAL_WORK.md).
+
+## Connect with Gemini CLI
+
+**1 · See if your account is enabled.** [Service availability](https://luch.lenarsalimov.ru/en/status/). If not, public code cannot enroll you.
+
+**2 · Install the extension** in a supported Gemini CLI setup:
 
 ```bash
 gemini extensions install https://github.com/lenar2/luch-gemini
 ```
 
-Restart Gemini CLI after installing. In a CLI session, use `/extensions list`
-then `/mcp auth luch` if OAuth authorization is required, and `/mcp list` to inspect
-available tools. A local browser with a loopback callback is required for OAuth.
-Some accounts require explicit LUCH enablement by the service administrator.
+Restart Gemini CLI. Then:
 
-**Not a self-service signup.** If your account is not enabled,
-the server should deny access; do not attempt to use owner credentials or access another tenant.
+```text
+/extensions list
+/mcp auth luch
+/mcp list
+```
 
-## Contents
-- `gemini-extension.json`: one streamable HTTP MCP configuration via `httpUrl`.
-- `skills/*/SKILL.md`: 12 portable LUCH skills with permission-awareness.
-- `GEMINI.md`: baseline safety context. No shell hooks or executable code.
+OAuth may require a local browser loopback callback. Use an account explicitly permitted to access LUCH; never use owner credentials.
 
-## Security
-- Public URL: `https://api.lenarsalimov.ru/luch/core/mcp`.
-- The legacy private owner MCP endpoint is deliberately excluded.
-- Installation is not an authorization grant; actions require explicit user/tenant/device permission.
-- This client contains no API keys, passwords, browser cookies, tokens or device secrets.
-- Client source only: Apache-2.0; privately hosted server not included.
+**3 · Start with a read-only result.** Ask: “Open this public documentation page, then tell me what it actually says with a source link.” Inspect the available tool list and the result before authorizing changes.
 
-## Product, terms and help
-- Website: https://luch.lenarsalimov.ru/
-- Getting started: https://luch.lenarsalimov.ru/docs/get-started/
-- Privacy: https://luch.lenarsalimov.ru/privacy/
-- Terms: https://luch.lenarsalimov.ru/terms/
-- Support: https://luch.lenarsalimov.ru/support/
-- Security: see SECURITY.md
+## What the extension contains
 
-## Local release checks
-- Parse `gemini-extension.json`.
-- Assert HTTPS remote HTTP MCP and no untrusted tool bypass.
-- Verify 12 YAML-frontmatter skills and source license.
-- Run the official `gemini extensions validate` and `gemini extensions install` on an isolated test profile.
-- Actual OAuth login and 3 positive / negative device isolation tests in Gemini are a separate E2E gate.
+| Part | Purpose |
+| --- | --- |
+| [`gemini-extension.json`](gemini-extension.json) | Protected HTTPS remote MCP configuration |
+| [`skills/`](skills/) | 12 portable, permission-aware skills |
+| [`GEMINI.md`](GEMINI.md) | Baseline safety context; no hidden shell automation |
 
-The icon is a text-only draft pending final brand sign-off.
+The public MCP endpoint is `https://api.lenarsalimov.ru/luch/core/mcp`. No secret keys, publisher device permissions or private server source ship with this extension.
+
+<details><summary>Validation and release boundaries</summary>
+
+Parsing the manifest or successfully installing a package is only a packaging check. Independent Gemini-host OAuth, authorized discovery and a real browser/server/file test, revocation and account isolation require separate evidence; no such broad PASS is asserted. The older text-only icon remains a draft pending brand sign-off.
+
+[Security](SECURITY.md) · [Terms](https://luch.lenarsalimov.ru/terms/) · [Privacy](https://luch.lenarsalimov.ru/privacy/) · [Support](https://luch.lenarsalimov.ru/support/)
+
+</details>
