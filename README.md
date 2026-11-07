@@ -35,6 +35,14 @@ You need to understand whether a selected service is healthy after a change.
 
 The extension includes 12 skills. Gemini CLI remains your terminal interface; LUCH provides the connected resources actually exposed to the current account and session.
 
+## The full LUCH beyond terminal diagnostics
+
+I built this extension as one entry into LUCH. The wider system includes **isolated web navigation, approved local browser tabs, files, paired computers, selected servers, supported services and multi-step workflows**, plus tool discovery, safe routing and troubleshooting.
+
+[**Explore every LUCH capability →**](https://github.com/lenar2/luch/blob/main/docs/CAPABILITIES.md)
+
+Each Gemini CLI session uses its current exposed tools and permissions; the skill catalog is not a blanket grant.
+
 ## Connect with Gemini CLI
 
 Install the extension:
