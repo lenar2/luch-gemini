@@ -3,7 +3,7 @@
 # LUCH for Gemini CLI
 ### Turn terminal work into a clear operational picture.
 
-Gemini CLI gives you a command-line home for technical work. **LUCH can connect that workflow to a selected server, approved files and a browser session** — then help turn the observed output into a status report and a sensible next action.
+I built this Gemini CLI extension to bring real tools into terminal-based work. **LUCH can connect your workflow to a selected server, approved files and a browser session** — then help turn the observed output into a status report and a sensible next action.
 
 [**See the Gemini CLI workflow**](docs/GEMINI_WORKFLOW.md) · [**Install the extension**](#connect-with-gemini-cli) · [Русский](README.ru.md) · [LUCH platform](https://github.com/lenar2/luch)
 
