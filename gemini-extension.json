@@ -1,6 +1,6 @@
 {
   "name": "luch-gemini",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Bring Gemini CLI into operational work across a selected server, authorized files and a browser session, with bounded checks and results you can inspect.",
   "mcpServers": {
     "luch": {
